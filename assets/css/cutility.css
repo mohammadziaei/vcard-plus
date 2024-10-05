@@ -1,0 +1,45 @@
+/* general */
+.hidden{
+    display: none !important;
+}
+
+.lh-0{
+    line-height: 0;
+}
+
+/* font-size */
+.cfs-6{
+    font-size: 0.85rem;
+}
+
+
+/* btn color */
+.cbtn-light{
+    background-color: var(--c-light) !important;
+}
+
+/* padding */
+.cpx-5{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+/* positions */
+.top-14{
+    top: 14px;
+}
+
+@media screen and (min-width: 570px){
+    .cpx-sm-5{
+        padding-left: 2.5rem !important;
+        padding-right: 2.5rem !important;
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+    .cpx-xl-5{
+        padding-left: 2.5rem !important;
+        padding-right: 2.5rem !important;
+    }
+}
